@@ -1,4 +1,7 @@
-@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Plain CSS on purpose — no @apply, so Tailwind v4 can't choke on it. */
 @layer components {
